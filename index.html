@@ -1,3 +1,4 @@
+<!-- less divs -->
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -6,29 +7,32 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- title not descriptive -->
     <title>Horiseon</title>
+
+
 </head>
 
 <body>
-    <!-- ??? -->
-    <div class="header">
+    <!-- changed class=header to header -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+        <!-- removed unnecessary div -->
+            <!-- changed the list into a proper nav bar -->
+            <nav>
+                <ul>
+                    <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                
+                    <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                
+                    <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    <!-- this should be an id instead of a class -->
+    <div id="hero"></div> 
     <div class="content">
         <div class="search-engine-optimization">
+            <!-- "class float-left?" -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
