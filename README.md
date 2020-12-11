@@ -1,6 +1,10 @@
-Your Project Title
-Description - What is this app
-Technology Used to build it / work with it
+# 01 HTML CSS Git: Code Refactor
+## Description - What is this app
+## Technologies used
+- HTML
+- CSS
+- Git
+- Github
 Table of Contents (Optional)
 Installation or how to view (Link to deployed)
 What you did - what was the work that you did and why
