@@ -1,12 +1,41 @@
 # 01 HTML CSS Git: Code Refactor
-## Description - What is this app
+
+This project is about making Horiseon's code base meet accessibility standards. That means that I modified the source code to contain semantic elements, have a logical structure, have alt attributes for image elements, and have a sequential order for heading attributes.
+
 ## Technologies used
 - HTML
 - CSS
 - Git
 - GitHub
 
-Installation or how to view (Link to deployed)
-What you did - what was the work that you did and why
-Code Snippets With context as to why you are highlighting it (Do not highlight every line of code)
-Who You Are (links to your LinkedIn & Portfolio - if one exists)
+[Website](https://sammyk118.github.io/refactoring-example-site/)
+
+
+## What I did
+- gave the webpage a proper title
+- replaced div elements and classes with semantic html elements. 
+- replaced classes that were only used once with ids.
+- added alt tags to images
+- in CSS, consolidated identifiers that had identical attributes
+```css
+/* consolidated identical attributes */
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+```
+- changed the order in css to make logical sense
+## Author
+
+**Sammy Kroner**
+
+[LinkedIn](www.linkedin.com/in/samuel-kroner-44aa11169)
+
+[GitHub](https://github.com/sammyk118)
+
+## Acknowledgements
+UC Berkeley Extension, and the fictional company Horiseon
