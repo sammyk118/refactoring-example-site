@@ -4,8 +4,8 @@
 - HTML
 - CSS
 - Git
-- Github
-Table of Contents (Optional)
+- GitHub
+
 Installation or how to view (Link to deployed)
 What you did - what was the work that you did and why
 Code Snippets With context as to why you are highlighting it (Do not highlight every line of code)
